@@ -17,8 +17,9 @@ How to Play
 
 "[ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ,  6 ]"
 
-['G', 'G', 'G', '_', 'B', 'B', 'B']
-Here, 'G' represents Green frogs on the left side, 'B' represents brown frogs on the right side, and '_' defines the position of an empty leaf.
+['G', 'G', 'G', '-', 'B', 'B', 'B']
+
+Here, 'G' represents Green frogs on the left side, 'B' represents brown frogs on the right side, and '-' defines the position of an empty leaf.
 
 # Accept Input:
 
@@ -27,7 +28,7 @@ Enter the position of the frog you want to move. For example, if you enter posit
 
 "[ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ,  6 ]"
 
-['G', 'G', '_', 'G', 'B', 'B', 'B']
+['G', 'G', '-', 'G', 'B', 'B', 'B']
 # Invalid Moves:
 
 Entered position should be between 0 to 6 or the character 'q' to quit the game.
@@ -43,4 +44,4 @@ If the input is a valid integer, the program will check if the move is valid acc
 The puzzle is considered solved when the two sets of frogs have switched positions. If the arrangement is:
 
 
-['B', 'B', 'B', '_', 'G', 'G', 'G']
+['B', 'B', 'B', '-', 'G', 'G', 'G']
